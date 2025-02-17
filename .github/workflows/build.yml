@@ -42,7 +42,7 @@ jobs:
       run: ./gradlew assembleRelease  # Atau gunakan assembleDebug untuk build debug
 
       - name: Verify APK exists
-  run: ls app/build/outputs/apk/release
+        run: ls app/build/outputs/apk/release
 
     - name: Upload APK as artifact
       uses: actions/upload-artifact@v4
