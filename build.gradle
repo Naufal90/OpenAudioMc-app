@@ -7,7 +7,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:7.4.0'  // Tentukan versi Gradle Plugin Android yang sesuai
-        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.0'  // Jika menggunakan Kotlin
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.20'  // Jika menggunakan Kotlin
     }
 }
 
