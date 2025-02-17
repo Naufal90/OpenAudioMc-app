@@ -38,9 +38,12 @@ jobs:
           gradle wrapper
         fi
 
-    - name: Build APK
-      run: ./gradlew assembleRelease  # Or use assembleDebug for debug build
+    - name: Decode keystore
+      run: echo "${{ secrets.ANDROID_KEYSTORE }}" | base64 --decode > app/keystore/naufal90.keystore
 
+    - name: Build APK
+      run: ./gradlew assembleRelease
+      
     - name: Verify APK exists
       run: ls app/build/outputs/apk/release
 
