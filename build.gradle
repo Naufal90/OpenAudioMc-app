@@ -6,7 +6,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.2.0'  // Tentukan versi Gradle Plugin Android yang sesuai
+        classpath 'com.android.tools.build:gradle:8.11.1'  // Tentukan versi Gradle Plugin Android yang sesuai
         classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.0'  // Jika menggunakan Kotlin
     }
 }
