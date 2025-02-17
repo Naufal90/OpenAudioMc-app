@@ -6,7 +6,7 @@ android {
     compileSdkVersion 30 // Tentukan versi SDK yang ingin digunakan
 
     defaultConfig {
-        applicationId "com.myvoiceapp"
+        applicationId "com.voicemcapp"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
