@@ -13,10 +13,10 @@ android {
 
     signingConfigs {
         release {
-            storeFile file("keystore/naufal90.keystore")  // Path ke keystore
-            storePassword System.getenv("naufal90")  // Ambil password dari environment variable
-            keyAlias System.getenv("naufal90")
-            keyPassword System.getenv("naufal90")
+            storeFile file("keystore/naufal90.keystore")
+            storePassword System.getenv("KEYSTORE_PASSWORD") ?: ""
+            keyAlias System.getenv("KEY_ALIAS") ?: ""
+            keyPassword System.getenv("KEY_PASSWORD") ?: ""
         }
     }
 
