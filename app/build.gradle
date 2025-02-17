@@ -3,12 +3,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 30 // Tentukan versi SDK yang ingin digunakan
+    compileSdkVersion 33 // Tentukan versi SDK yang ingin digunakan
 
     defaultConfig {
         applicationId "com.voicemcapp"
         minSdkVersion 21
-        targetSdkVersion 30
+        targetSdkVersion 33
         versionCode 1
         versionName "1.0"
     }
