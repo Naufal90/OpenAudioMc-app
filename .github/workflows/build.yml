@@ -23,7 +23,7 @@ jobs:
         java-version: '17'
 
     - name: Set up Android SDK
-      uses: reactivecircus/android-sdk-manager-action@v4
+      uses: reactivecircus/android-sdk-manager-action@v2
       with:
         sdk-version: '30.0.3'
 
